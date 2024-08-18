@@ -1,0 +1,184 @@
+/* Universal Settings */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Module Classes */
+/* Body Components */
+/* Id's */
+/* Classes */
+
+/* For Mobile less than 480px; */
+@media (min-width: 480px) {
+
+    /* Mobile Module Classes */
+    .flexNormalMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexColumnMoblie {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Universal */
+    *{
+        list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    /* Body Components For Mobiles*/
+    header {
+        height: 20vh;
+        width: 100vw;
+        background-color: aquamarine;
+    }
+    main {
+        font-size: 5rem;
+        height: fit-content;
+        width: 100vw;
+        background-color: rgb(255, 212, 159);
+    }
+    footer {
+        font-size: 2rem;
+        height: fit-content;
+        width: 100%;
+        background-color: rgba(0, 0, 174, 0.751);
+        color: white;
+    }
+
+    /* Id's For Mobiles*/
+    /* Header Id's */
+
+    /* Main Id's */
+    #slideleft {
+
+    }
+
+    /* Footer Id's */
+    #footerTop {
+        height: 20vh;
+    }
+    #footerBottom {
+        height: 40px;
+        background-color: rgb(0, 0, 68);
+    }
+
+    /* Classes For Mobiles*/
+    /* Header Classes */
+    .headerBox {
+        height: 5vh;
+        width: 100vw;
+        background-color: rgba(0, 170, 113, 0.784);
+        border-radius: 10px;
+        margin-top: 15vh;
+    }
+    .menuButton {
+        font-size: 6rem;
+        position: fixed;
+        top: 8rem;
+        left: 2rem;
+        background-color: black;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .logoBox {
+        font-size: 6rem;
+        height: 15vh;
+        width: 96%;
+        border-radius: 20px;
+        background-color: green;
+        position: fixed;
+        top: 2px;
+        left: 2%;
+    }
+    .headerContents {
+        ul {
+            height: 4vh;
+            width: 98vw;
+            font-size: 4rem;
+            li {
+                font-size: 4rem;
+                display: inline;
+                padding: 10px;
+                margin: 5px 20px;
+            }
+        }
+    }
+    .navBarBox {
+        
+        ul {
+            top: 11vh;
+            left: 1;
+            position: fixed;
+            justify-content: space-around;
+            border: 3px solid white;
+            background-color: black;
+            color: white;
+            z-index: 2;
+        }
+    }
+    .optionsBox {
+        ul {
+            justify-content: space-around;
+        }
+    }
+    /* Main Classes */
+    .mainBox {
+        height: fit-content;
+        width: 90vw;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    /* .mainContent {   
+    } */
+    .slideAnimation {
+        height: fit-content;
+        width: fit-content;
+        font-size: 20rem;
+        color: white;
+        margin: 0px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0);
+        
+        transition: all 0.5s ease;
+    }
+    .slideAnimation:hover {
+        transform: scale(1.5);
+        background-color: rgba(240, 248, 255, 0.356);
+    }
+    .pictureBox {
+        height: 60vh;
+        width: 90vw;
+        background-image: url("Images/BGM1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h1 {
+            font-size: 6rem;
+            background-color: rgba(255, 255, 255, 0.39);
+            border-radius: 30px;
+            padding: 5px 20px;
+        }
+    }
+    .mapBox {
+        height: 40vh;
+        margin: 20px 5px;
+        border: 5px dotted black;
+        border-radius: 10%;
+    }
+    /* Footer Classes */
+    
+    /* For JS */
+
+}
+
+/* For Js */
